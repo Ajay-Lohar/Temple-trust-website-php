@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            text-decoration: none;
+            
+        }
+        header{
+            height: 75px;
+            width: auto;
+            background-color: orange;
+            text-align: center;
+            padding: 30px 0px 0px 0px;
+            margin-top:
+
+        }
+        .navbar{
+			background: orange; 
+            font-family: calibri;
+            padding-right: 15px;
+            padding-left: 15px; 
+            
+            
+		}
+		.navdiv{
+			display: flex;
+            align-items: center;
+            justify-content: space-between;
+		}
+        
+      
+        .navbar :hover,
+        .footer :hover{
+            color: black;
+
+        }
+		.logo a{
+			font-size: 35px;
+            font-weight: 600;
+            color: white;
+		}
+		li{
+			list-style: none;
+            display: inline-block;
+		}
+		li a{
+			color: white;
+            font-size: 18px;
+            font-weight: bold;
+            margin-right: 25px;
+		}
+		
+		
+        #mandirtext{
+            text-align: center;
+        }
+
+
+        footer{
+            text-align: center;
+            background-color: rgb(98, 97, 97);
+            color: white
+            background-image: url();
+            height:100px;
+            width:auto;
+            padding-top: 30px;
+   
+       }
+       .container{
+        width: 80%;
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        overflow: hidden;
+    
+        border-radius: 10px;
+        border: 1px solid;
+        box-shadow: 0 5px 10px rgba(0 0 0 0.2);
+       }
+       #contact{
+        text-align: center;
+       }
+       input , textarea{
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px ;
+        
+        
+
+       }
+       textarea{
+        height: 211px;
+        width: 598px;
+       }
+       button{
+        display: block;
+        border: none;
+        border-radius: 10px;
+        height: 40px;
+        width: 200px;
+        color: white;
+        background-color: orange;
+
+       }
+
+
+      
+      
+       
+
+       @font-face {
+        font-family: marathifont;
+        src: url('AMS Aaditya Regular.ttf');
+       } 
+       #header {
+        font-family: marathifont;
+       }
+    </style>
+</head>
+<body>
+    <header> 
+        <h1 id="header">  jaya MI rama </h1> <!--header text-->
+     </header>
+     
+         <nav class="navbar"><!--nav bar -->
+             <div class="navdiv">
+                 <div class="logo"><a href="#"></a> </div>
+                 <ul>
+                     <li><a href="home.html">Home</a></li>
+                     <li><a href="VIPPass.html">VIP Pass</a></li>
+                     <li><a href="donation.html">Donation</a></li>
+                     <li><a href="#">Contact</a></li>
+                     <li><a href="info.html">Information</a></li>
+                     
+                 </ul>
+             </div>
+         </nav>
+        <br>
+        <form action="contactus.php" method="post">
+         <h1 id="contact">Contact Us </h1>
+        <div class="container">
+            <div id="name">
+                <span>Name:</span>
+                <input type="text"  id="file" name="name" placeholder="Enter your Name "  required>
+            </div>
+            <div id="number">
+                <span>Mobile No:</span>
+                <input type="number" name="number" id="mobile no" placeholder="Enter Your mobile number"  required>
+            </div>
+            <div id="email">
+                <span>Email:</span>
+                <input type="text" name="email" id="email"placeholder="Enter your Email id "  required>
+            </div>
+                <span>Massege:</span>
+                <textarea name="massege" placeholder="Enter a Message" ></textarea>
+           <hr><br>
+            <center><div >
+                <button type="submit" name="save" id="send">Send</button>
+            </div></center>
+
+        </form>
+        </div>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>temple trust website</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            text-decoration: none;
+            
+        }
+        header{
+            height: 75px;
+            width: auto;
+            background-color: orange;
+            text-align: center;
+            padding: 30px 0px 0px 0px;
+            margin-top:10px;
+
+        }
+        .navbar{
+			background: orange; 
+            font-family: calibri;
+            padding-right: 15px;
+            padding-left: 15px; 
+            
+            
+		}
+		.navdiv{
+			display: flex;
+            align-items: center;
+            justify-content: space-between;
+		}
+        
+      
+        .navbar :hover,
+        .footer :hover{
+            color: black;
+
+        }
+		.logo a{
+			font-size: 35px;
+            font-weight: 600;
+            color: white;
+		}
+		li{
+			list-style: none;
+            display: inline-block;
+		}
+		li a{
+			color: white;
+            font-size: 18px;
+            font-weight: bold;
+            margin-right: 25px;
+		}
+		
+		
+        #mandirtext{
+            text-align: center;
+            font-family: marathifont1;
+            font-size: max(4vw, 30px);
+            margin-top: 50px;
+            
+        }
+
+
+        footer{
+            text-align: center;
+            background-color: rgb(98, 97, 97);
+            color: white;
+            background-image: url();
+            height:100px;
+            width:auto;
+            padding-top: 30px;
+   
+       }
+       @font-face{
+        font-family:marathifont1;
+        src : url('AMS Deepak Regular.ttf');
+       }
+
+       @font-face {
+        font-family: marathifont;
+        src: url('AMS Aaditya Regular.ttf');
+       } 
+       #header {
+        font-family: marathifont;
+       }
+       .maindiv{
+            width: 70%;
+            height: 400px;
+           
+            left: 50%;
+            top: 50%;
+            transform: translate(20%);
+            background-image: url('dwar.jpg');
+            background-size: 100% 100%;
+            box-shadow: 1px 2px 10px 5px black;
+            animation: slider 15s infinite linear;
+            
+
+
+        }
+        button{
+            background-color: orange;
+            text-align:center;
+        }
+
+        @keyframes slider{
+            0%{background-image: url('dwar.jpg');}
+            35%{background-image: url('mandir.jpg');}
+            75%{background-image: url('maruti1.jpg');}
+
+        }
+    </style>
+</head>
+<body>
+    <header> 
+       <h1 id="header">  jaya MI rama </h1> <!--header text-->
+    </header>
+    <main>
+        <nav class="navbar"><!--nav bar -->
+            <div class="navdiv">
+                <div class="logo"><a href="#"></a> </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="VIPPass.html">VIP Pass</a></li>
+                    <li><a href="donation.html">Donation</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="info.html">Information</a></li>
+                    <li><a href="admin/signin.php">Admin Login</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+        <section id="photo"><!--ssection 1--><br><br>
+           <center> <h2>welcome to website  of </h2></center>
+            <h1 id="mandirtext">MaI samaTa_ maa@taI ma/idr,w/baXja</h1>
+            
+        </section><br><!--home page 3 images -->
+        
+            <div class="maindiv"></div>
+       
+    </main><br><br>
+    <footer>
+        <h5>|| Jay Jay Raghuvir Samarth  || </h5><br><br>
+             
+         <div class="footer"> 
+        <a class="active" href="#">Home</a>&nbsp;&nbsp;
+        
+        <a href="#">Privacy policy</a>&nbsp;&nbsp;
+        <a href="#">Countact us</a>&nbsp;&nbsp;
+        <a href="#">About</a> &nbsp;&nbsp;
+        <a href="#" > Copyrights &copy;2023  | samarth maruti mandir  trust</a>
+  
+        <!--facebook  and YouTube links-->
+  
+
+    </div>  
+
+    </footer>
+   
+    
+</body>
+</html>
